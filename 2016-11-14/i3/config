@@ -1,3 +1,9 @@
+## LD Dependencies so everything works sans anicroche : pidgin deluge wine goldendict firefox libreoffice gimp lxterminal terminology feh
+## LD aliases in .bashrc or .vimrc : elements
+
+# LD for a background image
+exec --no-startup-id feh --bg-scale /home/laurent/Images/.system/elements_english2_2.png
+
 # LD programmes avec bureaux associés (cf https://i3wm.organe/docs/userguide.html#assign_workspace)
 assign [class="Pidgin"] 7
 assign [class="Deluge"] 7
@@ -7,6 +13,7 @@ assign [class="Firefox"] 2
 assign [instance="libreoffice"] 3
 assign [class="Gimp"] 4
 assign [class="Lxterminal"] 5
+
 # LD startup apps
 # lancer pidgin et deluge 
 exec --no-startup-id pidgin
