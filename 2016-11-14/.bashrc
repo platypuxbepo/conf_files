@@ -1,4 +1,4 @@
-#
+## LD This is not updated much since I started to use fish. Check ~/.config/fish/config.fish
 # ~/.bashrc
 #
 exec fish
