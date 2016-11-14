@@ -1,8 +1,11 @@
-#!/bin/fish
+#!/bin/zsh
 ## pour faire une sauvegarde automatique des fichiers de conf importants. Script en deux parties, la première (ici) _uniquement_ faisable avec fish, l'autre _uniquement_ en _dehors_ de fish (donc zsh par exemple pour un environnement où fish est par défaut et remplace bash systématiquement). grive-tools merde, donc switch vers dropbox. Modifiable vers d'autres services si problème de quelque sorte venait à se révéler (éthique ou technique).
 #cd /home/laurent/Google\ Drive/conf_files
-cd /home/laurent/Dropbox/conf_files
-mkdir (date)
+
+## never mind just use zsh all throughout.
+#cd /home/laurent/Dropbox/conf_files
+cd /home/laurent/SparkleShare/conf_files
+mkdir ./$(date -I)
 ~/programmes/backupconf/backup_files_2_2.sh
 #!/bin/zsh
 #cd "$(ls -t | head -1)"
