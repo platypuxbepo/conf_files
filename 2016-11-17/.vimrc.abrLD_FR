@@ -24,7 +24,14 @@ iabbrev bcp beaucoup
 
 "C
 iabbrev cfd confond
+iabbrev chq chaque
+iabbrev crg courage
+iabbrev cpdr comprendre
+iabbrev cpds comprends
+iabbrev cpd comprend
+iabbrev ctxt contexte
 iabbrev cpq compliqu
+iabbrev cptmt comportement
 iabbrev crctq caractéristique
 iabbrev crctR caractère
 iabbrev cmq communique
@@ -49,11 +56,13 @@ iabbrev conj conjonction
 iabbrev csq conséquence
 iabbrev coord coordination
 iabbrev cmp compare
-iabbrev cap capable
+iabbrev capb capable
 
 "D
 iabbrev dgl déglutition
 iabbrev dxm dixième
+iabbrev drctt directement
+iabbrev drct direct
 iabbrev 17m dix-septième
 iabbrev 18m dix-huitième
 iabbrev 19m dix-neuvième
@@ -73,8 +82,17 @@ iabbrev dfc difficile
 "E
 iabbrev entt entité
 iabbrev ex exemple
+iabbrev enfc enfance
+iabbrev enft enfant
+iabbrev éct écrit
+iabbrev écs écris
+iabbrev écR écrire
 iabbrev erpn européen
 iabbrev Erp Europe
+iabbrev etds entends
+iabbrev etd entend
+iabbrev etdr entendre
+iabbrev éct écout
 
 "É
 iabbrev évt évènement
@@ -87,6 +105,11 @@ iabbrev élmR élémentaire
 
 "F
 iabbrev fig figur
+iabbrev fsbl faisable
+iabbrev faç façon
+iabbrev fctn fonction
+iabbrev fnctn fonction
+iabbrev ftlmt ftmlt
 iabbrev fR faire
 iabbrev fbS faiblesse
 iabbrev FB Facebook
@@ -100,6 +123,7 @@ iabbrev fncnm fonctionnement
 "G
 iabbrev gn groupe nominal
 iabbrev gr genre
+iabbrev gd grand
 iabbrev Gg Google
 iabbrev gén général
 iabbrev grpq graphique
@@ -107,12 +131,16 @@ iabbrev grpq graphique
 "H
 iabbrev hypoz hypothèse
 iabbrev hypq hypothétique
+iabbrev hrx heureux
+iabbrev hrz heureuse
 iabbrev huitm huitième
 iabbrev hértg héritage
 
 "I
 iabbrev Inst Instagram
 iabbrev iab iabbrev
+iabbrev imptt important
+iabbrev imptc importance
 iabbrev impr impression
 iabbrev istr instrument
 iabbrev istrl instrumental
@@ -132,15 +160,18 @@ iabbrev idtq identique
 
 "J
 iabbrev jrn journée
+iabbrev jms jamais
 
 "K
 
 "L
 iabbrev lg langue
 iabbrev lkdn LinkedIn
+iabbrev ltps longtemps
 iabbrev laq laquelle
 iabbrev lt latin
-iabbrev leq lequel
+iabbrev lq lequel
+iabbrev lsql lesquels
 iabbrev litlM littéralement
 iabbrev litt littéraire
 iabbrev litU littérature
@@ -151,6 +182,8 @@ iabbrev libt librement
 "M
 iabbrev manè manière
 iabbrev maR matière
+iabbrev min minute
+iabbrev mtnt mtnt
 iabbrev mmt moment
 iabbrev mvs mauvais
 iabbrev max maximum
@@ -164,6 +197,7 @@ iabbrev mvmt mouvement
 "N
 iabbrev nv nouveau
 iabbrev nvm neuvième
+iabbrev ngtf négatif
 iabbrev nvL nouvelle
 iabbrev NAm Nord Américain
 iabbrev nrm norme
@@ -186,14 +220,23 @@ iabbrev obstL obstétrical
 
 "P
 iabbrev polyph polyphonie
+iabbrev pt point
+iabbrev psq puisque
+iabbrev pêt peut-être
+iabbrev pq pourquoi
+iabbrev pltq politique
 iabbrev pb problème
 iabbrev pl parole 
 iabbrev prm premier
 iabbrev prtc particulier
 iabbrev ptc particip
 iabbrev pdt pendant
+iabbrev plpt plupart
+iabbrev pcq parce que
 iabbrev possN possession
+iabbrev  ss sans
 iabbrev pvr pouvoir
+iabbrev px peux
 iabbrev phcg pharmacologie
 iabbrev patq pathologique
 iabbrev pers personne
@@ -212,16 +255,17 @@ iabbrev prélR préliminaire
 iabbrev pop populaire
 iabbrev Pint Pinterest
 iabbrev pbb probablement
-iabbrev pr pour
-iabbrev physg PHYSIOL
 iabbrev percN perception
 iabbrev percB perceptible
 iabbrev psyl PSYCHOL
+iabbrev pstf positif
 
 "Q
 iabbrev qqn quelqu'un
 iabbrev qtrzm quatorzième
+iabbrev qqcs quoi que ce soit
 iabbrev quinzm quinzième
+iabbrev qstn question
 iabbrev qqpt quelque part
 iabbrev qd quand
 iabbrev qdm quand même
@@ -238,6 +282,10 @@ iabbrev qtt quantité
 "R
 iabbrev relf relatif
 iabbrev rltn relation
+iabbrev réf référence
+iabbrev réfl référentiel
+iabbrev réft référent
+iabbrev réfr référer
 iabbrev rltnl relationel
 iabbrev rd rendre
 iabbrev relv relative
@@ -277,9 +325,14 @@ iabbrev scd second
 
 "T
 iabbrev term terminal
+iabbrev tél téléphone
+iabbrev ttf toutes façons
+iabbrev txt texte
+iabbrev tps temps
 iabbrev treizm treizième
 iabbrev trsm troisième
-iabbrev trql tranquille
+iabbrev tql tranquille
+iabbrev tqlT tranquillité
 iabbrev trqlm tranquillement
 iabbrev tj toujours
 iabbrev tt tout
@@ -292,6 +345,9 @@ iabbrev trv trouve
 "V
 iabbrev vb verbe
 iabbrev vmt vraiment
+iabbrev vyg voyage
+iabbrev vx veux
+iabbrev vt veut
 iabbrev VP VX ou POÉT
 iabbrev vsN version
 

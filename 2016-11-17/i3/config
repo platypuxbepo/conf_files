@@ -1,4 +1,4 @@
-## LD Dependencies so everything works sans anicroche : pidgin deluge wine goldendict firefox libreoffice gimp lxterminal terminology feh
+## LD Dependencies so everything works sans anicroche : pidgin deluge wine goldendict firefox libreoffice gimp xfce4xfce4-terminal terminology feh
 ## LD aliases in .bashrc or .vimrc : elements
 
 # LD for a background image
@@ -10,23 +10,30 @@ assign [class="Deluge"] 7
 assign [class="Wine" instance="rcwin.exe"] 6
 assign [class="GoldenDict"] 6
 assign [class="Firefox"] 2
+assign [class="Mail"] 7
 assign [instance="libreoffice"] 3
 assign [class="Gimp"] 4
-assign [class="Lxterminal"] 5
+#assign [class="Lxterminal"] 5
+assign [class="Xfce4-terminal"] 5
+assign [class="Thunderbird"] 7
 
 # LD startup apps
 # lancer pidgin et deluge 
 exec --no-startup-id pidgin
-exec --no-startup-id deluge
+#exec --no-startup-id deluge
 exec --no-startup-id elements
 #exec --no-startup-id deepin-terminal ; exec $mod+e
 # lancer deux terminaux au départ : l'un pour lancer des progs, l'autre pour bosser dedans (vim &c)
-exec --no-startup-id lxterminal -e firefox
+exec --no-startup-id xfce4-terminal -e firefox
 exec --no-startup-id terminology 
 #exec --no-startup-id terminology
 
 # LD touchpad to click
 exec --no-startup-id /home/laurent/programmes/.system_me/script_touchpad.sh 
+
+# LD scrot for printscreen
+bindsym Print exec scrot '%Y-%m-%d-%h-%S_$wx$h.png' -e 'mv $f ~/Images/printscreens'
+
 
 # LD Fn keys for volume etc.
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+ unmute
@@ -70,9 +77,15 @@ floating_modifier $mod
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
 
+# LD start a file manager
+bindsym $mod+f exec spacefm
+
 # LD start a _decent_ terminal
 bindsym $mod+ecircumflex exec terminology
 bindsym $mod+y exec deepin-terminal
+
+# LD start clementine (x is c in bépo)
+bindsym $mod+x exec xfce4-terminal -e clementine
 
 # kill focused window
 bindsym $mod+q kill

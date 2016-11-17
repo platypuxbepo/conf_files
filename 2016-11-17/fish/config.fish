@@ -31,6 +31,7 @@ alias elements="calc ~/Documents/ortho_2016/elements.xls"
 alias cdz="cd ~/Documents/2016misc/zhengmapractice" 
 alias cdl="cd ~/Documents/languages"
 alias culturgé="cdo & vim culturegé.md"
+alias lg="cdo & vim lg.md"
 alias CD="cd ~"
 alias cdtrash="cd ~/.local/share/Trash/files"
 alias trashit=gvfs-trash
@@ -47,6 +48,8 @@ alias abbr="vim ~/.vimrc.abbrLD_EN"
 alias x=startx
 alias ideas="vim ~/Documents/2016misc/idées_vrac.md"
 alias backupconf="~/programmes/backupconf/backup_files.sh"
+alias son=pacmixer
+alias impression=system-config-printer
 
 # PS1='[\u@\h \W]\$ ' (marche pas dans fish)
 

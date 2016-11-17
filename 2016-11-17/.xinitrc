@@ -15,7 +15,7 @@
 # exec startkde
 # exec startxfce4
 # ...or the Window Manager of your choice
-# exec cinnamon-session
+#exec cinnamon-session
 exec i3 
 #feh --bg-scale /home/laurent/Images/.system/elements_english2_2.png
 # & /home/laurent/programmes/.system_me/script_touchpad.sh
