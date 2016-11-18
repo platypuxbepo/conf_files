@@ -28,6 +28,9 @@ exec --no-startup-id xfce4-terminal -e firefox
 exec --no-startup-id terminology 
 #exec --no-startup-id terminology
 
+# LD pianoteq (j=bépo on p)
+bindsym $mod+j exec "~/programmes/Pianoteq\ 5\ STAGE/amd64/Pianoteq\ 5\ STAGE"
+
 # LD touchpad to click
 exec --no-startup-id /home/laurent/programmes/.system_me/script_touchpad.sh 
 
