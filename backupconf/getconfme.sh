@@ -9,8 +9,8 @@
 cd /home/laurent/SparkleShare/conf_files
 cd "$(ls -t | head -1)"
 
-rm -R /home/laurent/.config/i3
-cp -R ./i3 /home/laurent/.config/i3
+#rm -R /home/laurent/.config/i3
+#cp -R ./i3 /home/laurent/.config/i3
 
 rm -R /home/laurent/.config/fish
 cp -R ./fish /home/laurent/.config/fish/
