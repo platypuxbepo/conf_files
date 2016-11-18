@@ -50,6 +50,7 @@ alias ideas="vim ~/Documents/2016misc/idées_vrac.md"
 alias backupconf="~/programmes/backupconf/backup_files.sh"
 alias son=pacmixer
 alias impression=system-config-printer
+alias getconfme="echo Aller exécuter le getconfme.sh dans ~/programmes/backupconf. Trop dangereux pour le mettre en alias directement comme ça."
 
 # PS1='[\u@\h \W]\$ ' (marche pas dans fish)
 
