@@ -15,13 +15,16 @@ cp -R ./i3 /home/laurent/.config/i3
 rm -R /home/laurent/.config/fish
 cp -R ./fish /home/laurent/.config/fish/
 
-rm -R /home/laurent/.xinitrc
-cp ./.xinitrc /home/laurent/.xinitrc
+rm -R /home/laurent/.config/terminology
+cp -R ./terminology /home/laurent/.config/terminology
+
+#rm -R /home/laurent/.xinitrc
+#cp ./.xinitrc /home/laurent/.xinitrc
 
 rm -R /home/laurent/.vimrc*
 cp ./.vimrc* /home/laurent/.vimrc*
 
-rm -R /home/laurent/.bashrc
-cp ./.bashrc /home/laurent/.bashrc
+#rm -R /home/laurent/.bashrc
+#cp ./.bashrc /home/laurent/.bashrc
 #/opt/grive-tools/grive-indicator
 #/bin/dropbox
