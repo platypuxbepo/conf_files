@@ -25,7 +25,7 @@ exec --no-startup-id elements
 #exec --no-startup-id deepin-terminal ; exec $mod+e
 # lancer deux terminaux au départ : l'un pour lancer des progs, l'autre pour bosser dedans (vim &c)
 exec --no-startup-id xfce4-terminal -e firefox
-exec --no-startup-id terminology 
+exec --no-startup-id terminology -e tmux 
 #exec --no-startup-id terminology
 
 # LD pianoteq (j=bépo on p)
@@ -84,8 +84,8 @@ floating_modifier $mod
 bindsym $mod+f exec spacefm
 
 # LD start a _decent_ terminal
-bindsym $mod+ecircumflex exec terminology
-bindsym $mod+y exec deepin-terminal
+bindsym $mod+ecircumflex exec terminology -e tmux
+bindsym $mod+y exec deepin-terminal -e tmux
 
 # LD start clementine (x is c in bépo)
 bindsym $mod+x exec xfce4-terminal -e clementine
