@@ -13,7 +13,7 @@ Une fois Vundle installé selon la méthode sur https://github.com/VundleVim/Vun
 
 
 # softs :
-vim feh clementine eog terminology deepin-terminal wine pidgin caps2esc tmux git 
+vim feh clementine eog terminology deepin-terminal wine pidgin caps2esc tmux git acpi the_silver_searcher
 
 # paramétrage :
 * vim utilise en priorité Vundle pour les plugins, et les différents fichiers de conf rattachés à .vimrc. Voir .vimrc ("source" dans .vimrc à ce jour : « source ~/.vimrc.bepo
@@ -25,4 +25,6 @@ source ~/.vimrc.abbrLD_EN
 
 * pour mettre caps2esc system wide :
 (https://github.com/oblitum/caps2esc)
-sudo nice -n -20 ./caps2esc >caps2esc.log 2>caps2esc.err &
+systemctl enable caps2esc
+
+* silver searcher : dans shell, "ag"
