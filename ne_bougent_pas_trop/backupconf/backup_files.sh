@@ -5,7 +5,7 @@
 ## never mind just use zsh all throughout.
 #cd /home/laurent/Dropbox/conf_files
 cd /home/laurent/SparkleShare/conf_files
-mkdir ./$(date -I)
+mkdir ./$(date -I)_manjasusro
 ~/programmes/backupconf/backup_files_2_2.sh
 #!/bin/zsh
 #cd "$(ls -t | head -1)"
