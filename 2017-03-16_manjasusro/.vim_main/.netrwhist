@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/laurent'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/laurent/programmes/backupconf'
+let g:netrw_dirhist_4='/home/laurent/.mutt/cache/headers'
+let g:netrw_dirhist_5='/home/laurent/.mutt/cache/bodies'
+let g:netrw_dirhist_6='/home/laurent/.offlineimap'
+let g:netrw_dirhist_7='/home/laurent/.mutt/account.com.yahoo.laurent'
+let g:netrw_dirhist_8='/home/laurent/Documents/main_misc/hop'
