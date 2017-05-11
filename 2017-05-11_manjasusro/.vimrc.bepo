@@ -63,8 +63,8 @@ noremap K R
 noremap ]k ]s
 noremap [k [s
 
-"edit Laurent pour fonctionnalité de CTRL-R par CTRL-K
-noremap <C-k> <C-r>
+"edit Laurent pour fonctionnalité de CTRL-R par U (majuscule)
+noremap U <C-r>
 
 "edit Laurent pour navigation avec jklm (tsrn en bépo) entre différents panneaux (viewports :vsp et :sp)
 "map <C-T> <C-W>t<C-W>_ (ne marche pas)
