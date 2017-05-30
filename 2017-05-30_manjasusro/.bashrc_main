@@ -1,0 +1,42 @@
+## LD This is not updated much since I started to use fish. Check ~/.config/fish/config.fish
+# ~/.bashrc
+#
+exec zsh
+
+setxkbmap fr bepo
+#-option grp:switch,grp:alt_shift_toggle,grp_led:scroll fr,us
+
+# run java from prompt smoothly
+export CLASSPATH=""
+
+
+# If not running interactively, don't do anything
+#[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias myupdate="/home/laurent/programmes/.system_me/script_update.sh" 
+alias oed="wine /home/laurent/programmes/oed/Oxford\ English\ Dictionary\ -\ 2nd\ Ed.\ Vers.4.0\ \(2009\)\ \(Malestrom™\)/swhx.exe"
+alias rco="wine /mnt/rc/rcwin.exe"
+alias cepd="wine /home/laurent/programmes/cepd/cepd17.exe"
+alias voc="libreoffice --writer /home/laurent/Documents/Orthophonie/vocabulaire_général.odt"
+alias writer="libreoffice --writer"
+alias calc="libreoffice --calc"
+alias cdo="cd ~/Documents/ortho_2016"
+alias cdi="cd ~/Documents/languages/italiano/corsi_2016-7/"
+alias cdgd="cd ~/Google\ Drive"
+alias pianoteq="~/Musique/playing/piano/pianoteq_versions/v571/Pianoteq\ 5\ STAGE"
+PS1='[\u@\h \W]\$ '
+
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=bus
+export QT_IM_MODULE=ibus
+export EDITOR="nano"
+
+#so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
+stty -ixon
+
+# Sets the Mail Environment Variable (from https://help.ubuntu.com/community/MuttAndGmail)
+MAIL=/var/spool/mail/john && export MAIL
+
+alias vivaldi=vivaldi-stable
+
