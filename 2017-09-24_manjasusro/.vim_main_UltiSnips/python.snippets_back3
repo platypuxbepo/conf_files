@@ -1,0 +1,31 @@
+snippet fmatter
+---
+title: $1
+date: $2
+tages: $3
+---
+$0
+endsnippet
+
+snippet ript
+raw_input($1)
+$0
+endsnippet
+
+snippet ipt
+input($1)
+$2
+$0
+endsnippet
+
+snippet vipt
+$1 = input ("$2")
+$3
+$0
+ensnippet
+
+snippet vript
+$1 = raw_input("$2")
+$3
+$0
+ensnippet
