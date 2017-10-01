@@ -1,0 +1,44 @@
+[colors]
+
+# special
+foreground      = #a5a2a2
+foreground_bold = #a5a2a2
+cursor          = #fded02
+background      = #1f1f1f
+
+# black
+color0  = #090300
+color8  = #5c5855
+
+# red
+color1  = #db2d20
+color9  = #db2d20
+
+# green
+color2  = #00853e
+color10 = #00853e
+
+# yellow
+color3  = #fded02
+color11 = #fded02
+
+# blue
+color4  = #01a0e4
+color12 = #01a0e4
+
+# magenta
+color5  = #3254ff
+color13 = #ea04b3
+
+# cyan
+color6  = #5e46ba
+color14 = #5e46ba
+
+# white
+color7  = #fef9f9
+color15 = #f7f7f7
+
+
+[options]
+#font = Source Code Pro 11
+font = Monofur 12
